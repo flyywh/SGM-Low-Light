@@ -39,19 +39,13 @@ Due to the absence of a desirable objective for lowlight image enhancement, prev
 2. Synthetic subset of LOL [[Baiduyun (b14u)]](https://pan.baidu.com/s/1t5OYgDgk3mQO53OXqW7QEA) [[Dropbox]](https://www.dropbox.com/s/sw5rcm6f4sw5ozs/SGM-Syn-Results.zip?dl=0)
 
 ## Run the program
-1. Reproduce the results in Table II and III of [[the original paper]](http://39.96.165.147/Pub%20Files/2021/ywh_tip21_2.pdf):
-
-sh ./src/test_syn.sh
-
+1. Reproduce the results in Table II and III of [[the original paper]](http://39.96.165.147/Pub%20Files/2021/ywh_tip21_2.pdf):<br>
+sh ./src/test_syn.sh<br>
 sh ./src/test_cap.sh
 
-
-2. To deal real noisy/less-noisy low-light images: 
-
-sh ./src/test_real_noisy.sh
-
+2. To deal real noisy/less-noisy low-light images: <br>
+sh ./src/test_real_noisy.sh<br>
 sh ./src/test_real_noise_free.sh
-
 
 ## Contact
 
