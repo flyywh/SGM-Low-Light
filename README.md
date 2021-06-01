@@ -35,8 +35,8 @@ Due to the absence of a desirable objective for lowlight image enhancement, prev
 （**Note**: the code is suitable for PyTorch 0.4.1 or 0.4.0, If you have to use more advanced versions, which might be constrained to the GPU device types, you might access Wang Hong's github for the idea to replace parts of the dataloader: [[New Dataloader]](https://github.com/hongwang01/RCDNet/tree/master/pytorch1.0%2B/for_syn/src))
 
 ## Results
-1. Real captured subset of LOL [[Baiduyun]]() [[Dropbox]]()
-2. Synthetic subset of LOL [[Baiduyun]]() [[Dropbox]]()
+1. Real captured subset of LOL [[Baiduyun (65ay)]](https://pan.baidu.com/s/1pQW7zq4yqU1zMRrlotxkXg) [[Dropbox]](https://www.dropbox.com/s/yy0p5rkcjroqrvg/SGM-Cap-Results.zip?dl=0)
+2. Synthetic subset of LOL [[Baiduyun (b14u)]](https://pan.baidu.com/s/1t5OYgDgk3mQO53OXqW7QEA) [[Dropbox]](https://www.dropbox.com/s/sw5rcm6f4sw5ozs/SGM-Syn-Results.zip?dl=0)
 
 ## Run the program
 1. Reproduce the results in Table II and III of [[the original paper]](http://39.96.165.147/Pub%20Files/2021/ywh_tip21_2.pdf):
