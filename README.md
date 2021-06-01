@@ -28,9 +28,24 @@ Due to the absence of a desirable objective for lowlight image enhancement, prev
 ```
 <img src="teaser/teaser_SGM.png" > 
 
-## Installation:
-(TBD)
+## Installation
 
+1. Clone this repo
+2. Install PyTorch and dependencies from http://pytorch.org 
+（**Note**: the code is suitable for PyTorch 0.4.1 or 0.4.0, If you have to use more advanced versions, which might be constrained to the GPU device types, you might access Wang Hong's github for the idea to replace parts of the dataloader: [[New Dataloader]](https://github.com/hongwang01/RCDNet/tree/master/pytorch1.0%2B/for_syn/src))
+
+## Results
+1. Real captured subset of LOL [[Baiduyun]]() [[Dropbox]]()
+2. Synthetic subset of LOL [[Baiduyun]]() [[Dropbox]]()
+
+## Run the program
+1. Reproduce the results in Table II and III of [[the original paper]](http://39.96.165.147/Pub%20Files/2021/ywh_tip21_2.pdf): 
+sh ./src/test_syn.sh
+sh ./src/test_cap.sh
+
+2. To deal real noisy/less-noisy low-light images: 
+sh ./src/test_real_noisy.sh
+sh ./src/test_real_noise_free.sh
 
 ## Contact
 
