@@ -47,6 +47,14 @@ sh ./src/test_cap.sh
 sh ./src/test_real_noisy.sh<br>
 sh ./src/test_real_noise_free.sh
 
+## Dataset License
+
+The LOL/LOL-v2 dataset are licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+
+You may use, share, and adapt the dataset for any purpose, including commercial use, provided that you give appropriate credit, include a link to the license, and indicate if changes were made.
+
+If you use LOL/LOL-v2 in your research, please cite the paper listed above.
+
 ## Contact
 
 If you have questions, you can contact `yangwenhan@pku.edu.cn`.
